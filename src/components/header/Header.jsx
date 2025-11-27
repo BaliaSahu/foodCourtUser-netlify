@@ -9,8 +9,8 @@ const Header = () => {
                     Order your favourite food here.
                 </h1>
                 <p className="col-md-8 fs-4">
-                    Discover the best food and drinks in <span style={{ fontSize: "30px", color: "red", fontWeight: "400" }}>
-                        Header Text
+                    Discover the best food and drinks in <span style={{ fontSize: "30px", color: "green", fontWeight: "400" }}>
+                        Bhubaneswar
                     </span>
                 </p>
                 <Link to="/explore" style={{ backgroundColor: "blue", borderRadius: "10px", height: "30px", color: "white", fontSize: "20px", padding: "8px", textDecoration: "none" }} className="">Explore</Link>
