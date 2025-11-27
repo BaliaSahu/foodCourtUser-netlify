@@ -2,7 +2,7 @@
 import axios from 'axios'
 import { toast } from 'react-toastify';
 
-const API_URL = "http://localhost:8080"
+const API_URL = "https://foodcourt-backend-production.up.railway.app"
 
 export const fetchFoodList = async () => {
 
