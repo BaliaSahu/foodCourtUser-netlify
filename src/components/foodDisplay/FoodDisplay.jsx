@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { StoreContext } from "../../context/StoreContext";
-import Fooditem from "../foodItem/Fooditem.jsx";
+import FoodItem from "../foodItem/FoodItem.jsx";
 
 const FoodDisplay = ({category}) => {
 
@@ -20,9 +20,9 @@ const FoodDisplay = ({category}) => {
                     filterFoods.length > 0 ? (
                         filterFoods.map((e, i) => {
                             return (
-                                <Fooditem key={i}
+                                <FoodItem key={i}
                                 e={e}
-                                ></Fooditem>
+                                ></FoodItem>
                             )
                         })
                     ) : (

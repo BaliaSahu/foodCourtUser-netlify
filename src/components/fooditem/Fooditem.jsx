@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { StoreContext } from "../../context/StoreContext";
 
-const Fooditem = (e) => {
+const FoodItem = (e) => {
     // console.log(e.e);
     const {quantity,increaseQuantity,decreaseQuantity}=useContext(StoreContext);
     console.log(quantity)
@@ -52,4 +52,4 @@ const Fooditem = (e) => {
         </div>
     )
 }
-export default Fooditem;
+export default FoodItem;
