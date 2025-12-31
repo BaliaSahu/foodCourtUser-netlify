@@ -2,7 +2,7 @@
 import axios from 'axios'
 import { toast } from 'react-toastify';
 
-const API_URL = "https://foodcourt-backend-production.up.railway.app"
+const API_URL = "https://foodcourt-backend-beob.onrender.com"
 
 export const fetchFoodList = async () => {
 
