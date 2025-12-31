@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_URL = "https://foodcourt-backend-production.up.railway.app";
+const API_URL = "https://foodcourt-backend-beob.onrender.com";
 
 export const createOrder = async (data, token) => {
     try {
