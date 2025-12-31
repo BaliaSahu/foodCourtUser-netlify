@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-const API_URL = "https://foodcourt-backend-production.up.railway.app";
+const API_URL = "https://foodcourt-backend-beob.onrender.com";
 export const registerService = async (data) => {
     console.log("ASLSLSL", data)
     const response = await axios.post(API_URL + "/api/register", data);
